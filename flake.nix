@@ -37,7 +37,7 @@
             })
           else ./.;
 
-        nativeBuildInputs = with pkgs; [pkg-config meson ninja gcc14];
+        nativeBuildInputs = with pkgs; [pkg-config meson ninja gcc];
         buildInputs = with pkgs;
           [
             hyprland.packages.${system}.hyprland.dev
